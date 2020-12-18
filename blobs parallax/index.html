@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Enllax.js | a plugin for parallax scrolling effect by MMK Jony</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; }
+      body {
+          background: #000000;
+          font-family: 'Poppins', sans-serif;
+            color: #ffffff;
+            line-height: 1.4;
+            overflow-x: hidden;
+
+        }
+     
+        
+        
+        
+        .box {
+         
+            width: 90%;
+            margin: 0 auto;
+            background: #ffff;
+            padding: 100px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 1px #777;
+            margin-bottom: 5px;
+            color: #000000;
+            border-radius: 100px;
+        }
+    
+          
+        h1{
+            
+            text-align: center;
+           font-size: 20px;
+            margin-top: 10%;
+             
+        
+        }
+        h2{
+            z-index: 44444;
+            margin: 55px;
+            text-align: center;
+            font-size: 12px;
+        }
+     
+       
+    </style>
+  </head>
+  <body>
+    <section class="page-header text-center">
+      <h1>Portafolio</h1>
+      <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur asperiores, libero consectetur! Animi molestias, vel optio, delectus qui temporibus dolore. Nemo deleniti consequuntur iste ea illum natus. Optio veniam tenetur voluptates. Facere facilis quod expedita obcaecati mollitia ad et amet nihil, ab voluptate suscipit recusandae debitis id cumque. Enim, eos.</h2>
+       
+    </section>
+    
+     
+     
+    
+    <div class="demo">             
+            <br><br>
+            <div class="box">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore doloremque libero, asperiores perspiciatis, nulla fuga hic expedita fugit veritatis iure natus deserunt aliquam et atque inventore quae soluta laudantium omnis illum corrupti ullam officiis. Voluptates, nemo veniam laudantium sed magnam, distinctio consequatur, ipsum, nulla expedita voluptate labore. Animi, porro, officia?
+            </div>
+            
+            <img src="one.svg" alt="" data-enllax-ratio="0.1" data-enllax-type="foreground" style="z-index:99">
+            
+
+
+
+        
+            <img src="Computer.svg" width="35%" alt="" data-enllax-ratio="0.5" data-enllax-type="foreground" style="z-index:99; background-position: center;">
+            
+            <div class="box">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia nemo, labore quaerat! Sit fugit explicabo veniam unde molestias nemo, natus nostrum, voluptate eaque. Consectetur nesciunt magnam molestias velit minus cum!
+            </div>
+            <img src="layer-2.png" alt="" data-enllax-ratio="1.0" data-enllax-type="foreground" style="z-index:99">
+            
+            <img src="layer-3.png" alt="" data-enllax-ratio="2.1" data-enllax-type="foreground" style="z-index:99">
+           
+
+            <div class="box">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia nemo, labore quaerat! Sit fugit explicabo veniam unde molestias nemo, natus nostrum, voluptate eaque. Consectetur nesciunt magnam molestias velit minus cum!
+            </div>
+           
+            <img src="layer-3.png" alt="" data-enllax-ratio="-3.1" data-enllax-type="foreground"  style="z-index:99">
+           
+            
+            <div class="box">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia nemo, labore quaerat! Sit fugit explicabo veniam unde molestias nemo, natus nostrum, voluptate eaque. Consectetur nesciunt magnam molestias velit minus cum!
+            </div>
+
+            <img src="layer-3.png" alt="" data-enllax-ratio="-2.1" data-enllax-type="foreground" style="z-index:99">
+
+
+            <div class="box">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia nemo, labore quaerat! Sit fugit explicabo veniam unde molestias nemo, natus nostrum, voluptate eaque. Consectetur nesciunt magnam molestias velit minus cum!
+            </div>
+
+
+            <img src="layer-2.png" alt="" data-enllax-ratio="-3.0" data-enllax-type="foreground" style="z-index:99">
+
+               
+              
+            
+            <div class="box">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia nemo, labore quaerat! Sit fugit explicabo veniam unde molestias nemo, natus nostrum, voluptate eaque. Consectetur nesciunt magnam molestias velit minus cum!
+            </div>
+            
+        </div>
+        
+ 
+
+      
+
+
+<!-- Scripts -->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js"></script>
+    
+    <script src="jquery.enllax.min.js"></script>
+    <script>
+
+        (function($){
+            
+            
+            $(window).enllax();
+            
+            
+        })(jQuery);
+
+
+
+    </script>
+  
+  </body>
+</html>
+
